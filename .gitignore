@@ -1,0 +1,16 @@
+# Downloaded models (run: python download_models.py)
+models/*.onnx
+models/*.xml
+
+# Personal face data - never upload photos of people
+dataset/*/
+face_db.pkl
+
+# Generated output
+output/*
+!output/.gitkeep
+
+__pycache__/
+*.pyc
+venv/
+.venv/
